@@ -4,6 +4,29 @@
 
 ## ·压缩
 ```
+    //调用
+     ZipUtils.zipFile(dirPath , tagPath,"123456", new ZipCallback() {
+             @Override
+             public void onStart() {
+                 
+             }
+
+             @Override
+             public void onProgress(int percentDone) {
+                 
+             }
+
+             @Override
+             public void onFinish(boolean success) {
+                 
+             }
+         });
+
+
+
+
+
+
     /**
      * 压缩文件或者文件夹
      *
@@ -62,6 +85,25 @@
    
 ## ·解压
 ```
+//调用
+    ZipUtils.unzip(tagPath, sdcardPath + "/解压后文件夹", "123456",new ZipCallback() {
+            @Override
+            public void onStart() {
+                
+            }
+            @Override
+            public void onProgress(int percentDone) {
+               
+            }
+
+            @Override
+            public void onFinish(boolean success) {
+              
+            }
+        });
+
+
+
  /**
      * 解压
      *
