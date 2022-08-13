@@ -1,0 +1,3 @@
+include ':zip'
+include ':app'
+rootProject.name = "ZipFile"

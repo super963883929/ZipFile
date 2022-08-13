@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZipFile</string>
+    <string name="zipFile">压缩文件</string>
+    <string name="unZipFile">解压文件</string>
+</resources>
