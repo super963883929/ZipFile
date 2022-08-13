@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
             public void onStart() {
                 loadingShow(0);
             }
-
             @Override
             public void onProgress(int percentDone) {
                 loadingShow(percentDone);
